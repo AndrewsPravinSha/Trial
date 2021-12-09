@@ -2,7 +2,11 @@ package aps.codes;
 
 public class Sample {
 	public static void main(String[] args) {
-		System.out.println("Hello World");
+		String str ="World Of Death";
+		
+		String upperCase = str.toUpperCase();
+		
+		System.out.println(upperCase);
 	}
 
 }
